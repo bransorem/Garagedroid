@@ -8,7 +8,7 @@ Make it work
 
 To make it work, you'll need to change a few things.
 
-In MainActivity.java, find `final String url = "http://www.example.com:PORT";` and change the string to your URL and the port number you have coded into the [Garageduino](https://github.com/bransorem/Garageduino) code.
+In strings.xml, change the address to your URL, and the port to whatever port you coded in the [Garageduino](https://github.com/bransorem/Garageduino) code.
 
 In HttpTask.java, you can change the custom headers to be whatever you want - just make sure to update it in the Garageduino code also.
 
